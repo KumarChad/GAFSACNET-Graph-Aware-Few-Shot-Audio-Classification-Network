@@ -1,6 +1,6 @@
 # TPG-Heuristic_Homies-audiovision
 
-<h1 align="center">Turing's Playground Heuristic Homies</h1>
+<h1 align="center">GAFSACNET: Graph Aware Few-Shot Audio Classification Network</h1>
 <p align="center">
 </p>
 <a href="https://weekendofcode.computercodingclub.in/"> <img src="https://i.postimg.cc/njCM24kx/woc.jpg" height=30px> </a>
