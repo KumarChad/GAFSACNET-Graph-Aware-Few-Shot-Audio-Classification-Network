@@ -1,31 +1,25 @@
-# TPG-Heuristic_Homies-audiovision
+# 📄 GAFSACNet
 
-<h1 align="center">GAFSACNET: Graph Aware Few-Shot Audio Classification Network</h1>
-<p align="center">
-</p>
-<a href="https://weekendofcode.computercodingclub.in/"> <img src="https://i.postimg.cc/njCM24kx/woc.jpg" height=30px> </a>
+## 💻 Introduction
 
-## Introduction:
-  Combined CNN, Graph Attention Networks and Prototypical Layers to classify audio data
-  
-## Table of Contents:
+**GAFSACNet** (Graph-Aware Few-Shot Audio Classification Network) is an ongoing deep learning research project for multi-label and few-shot audio tagging. It combines a pretrained ResNet for feature extraction to generate embeddings, Graph Attention Networks (GAT) for hierarchical modeling of the embedding space, and a modified Prototypical Network for classification. The model is trained on Mel spectrograms extracted from a subset of the FSD50K dataset.
 
-## Technology Stack:
-  1) Pytorch
-  2) Google Collab
-  4) Machine Learning
+## 📖 Table of Contents
 
-## Contributors:
+- [💻 Introduction](#introduction)
+- [🔥 Features](#features)
+- [👥 Contributors](#contributors)
 
-Team Name: Heuristic Homies
+## ♣️ Features
 
-* [Kumaradithya Chadalavada](https://github.com/lokesh-wagh)
+- **Hybrid and Novel Architecture:**: Combines ResNet, GAT, and Prototypical Networks for robust multi-label and few-shot audio tagging.
+
+- **Data Augmentation:**: Employs augmentation techniques such as MixUp and SpecAugment on Mel spectrograms to enhance generalization of the model.
+
+- **Scalable Data Pipeline:**: Includes a scalable and efficient custom dataset implementation for handling large scale data and the episodic training needs of the model.
+
+## 👥 Contributors
+
 * [Anirudh Vignesh](https://github.com/crystallyen)
 * [Divyesh Dileep](https://github.com/Divyesh48960)
-
-
-### Made at:
-
-
-
-<a href="https://weekendofcode.computercodingclub.in/"> <img src="https://i.postimg.cc/mrCCnTbN/tpg.jpg" height=30px> </a>
+* [Kumaradithya Chadalavada](https://github.com/KumarChad)
